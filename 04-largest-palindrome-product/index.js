@@ -1,29 +1,28 @@
-function isPalindromic(num) {
-    const strN = `${num}`;
-    const revStrN = strN.split("").reverse().join("");
-    return strN == revStrN;
+function isPalindromic(n) {
+
+    const rev = `${n}`.split('').reverse().join('');
+
+    return `${n}` == `${rev}`;
 }
 
-let smallestProduct = 100 * 100;
-let largestProduct = 999 * 999;
 
 
-console.log(`smallestProduct = ${smallestProduct}`);
-console.log(`largestProduct = ${largestProduct}`);
+let product = 0;
+let max = -1;
 
+for(let multiplier = 999; multiplier >= 100; multiplier--){
+    for(let multiplicand = multiplier; multiplicand >= 100; multiplicand--){
+        product = multiplier * multiplicand;
 
-let largestPalindromicProduct = -1;
+        if(
+            isPalindromic(product) &&
+            max < product
+        ){
+            max = product;
+        }
 
-while (smallestProduct <= largestProduct) {
-    if (
-        isPalindromic(smallestProduct) &&
-        smallestProduct > largestPalindromicProduct
-        ) {
-        largestPalindromicProduct = smallestProduct;
     }
-
-    smallestProduct += 1;
 }
 
 
-console.log(`largestPalindromicPrime = ${largestPalindromicProduct}`);
+console.log(max);
