@@ -13,3 +13,4 @@
 | 7 | 10001st Prime | [https://projecteuler.net/problem=7](https://projecteuler.net/problem=7) | [Here](./0007-10001st-prime/index.js) |
 | 8 | Largest Product in Series | [https://projecteuler.net/problem=8](https://projecteuler.net/problem=8) | [Here](./0008-largest-product-in-series/index.js) |
 | 9 | Special Pythagorean Triple | [https://projecteuler.net/problem=9](https://projecteuler.net/problem=9) | [Here](./0009-special-pythagorean-triple/index.js) |
+| 10 | Summation of Primes | [https://projecteuler.net/problem=10](https://projecteuler.net/problem=10) | [Here](./0010-summation-of-primes/index.js) |
