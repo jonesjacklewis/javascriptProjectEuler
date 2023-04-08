@@ -11,3 +11,4 @@
 | 5 | Smallest Multiple | [https://projecteuler.net/problem=5](https://projecteuler.net/problem=5) | [Here](./05-smallest-multiple/index.js) |
 | 6 | Sum Square Difference | [https://projecteuler.net/problem=6](https://projecteuler.net/problem=6) | [Here](./06-sum-square-difference/index.js) |
 | 7 | 10001st Prime | [https://projecteuler.net/problem=7](https://projecteuler.net/problem=7) | [Here](./07-10001st-prime/index.js) |
+| 8 | Largest Product in Series | [https://projecteuler.net/problem=8](https://projecteuler.net/problem=8) | [Here](./08-largest-product-in-series/index.js) |
